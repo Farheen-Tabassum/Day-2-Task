@@ -1,0 +1,53 @@
+The documents and window objects in javascript are built-in object that provides a way to interact with the web page and the browser window.
+
+Document Object:
+The document object represents a web page that is loaded in the browser.
+By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page.
+The document object can be accessed with a window.document or just document.
+They are the root object of the document object model and the browser object model respectively.
+
+Examples of the properties and methods of document.
+
+Properties of documents Syntax: document.property-name;
+
+document.title - gets the title of the webpage
+document.body - gets the body element of the webpage
+document.head - gets the head element of the web page
+document.forms - gets collection of all form elements in the web page 
+document.image -gets collection of all image elements in the web page 
+document.links - gets a collection of all anchor elements in the web page
+
+Methods of Document Syntax: document.method-name;
+
+document.getElementByID() - gets an elements by its id.
+document.getElementByTagName() - gets a collection of their element by their tag name.
+document.createElement() - create a new elements with a specified tag name.
+document.createTextNode() - creates a new text node with a specified text.
+document.appendChild() - addes a new child node to an element.
+
+Winodw object: 
+The window object is supported by all browsers. It represents the browser window.
+All global javascript objects, functions and variables automatically becomes members of variables are properties of the window object.
+Global variables are properties of the window object.
+Globale functions are methods of the window object.
+Even the document of the HTML, DOM, is aProperty of the window object.
+
+Examples of the properties and methods of Window.
+
+Properties of window Syntax: window.property-name;
+
+Window.innerWidth - gets the width of browser window excluding the scroll bars.
+window.innerHeight - gets the height of the browser window excluding the scroll bars.
+window.outerHeight - gets the height of the outer window including the scroll bars.
+window.outerwidth - gets the width of the outer window including the scroll bars.
+window.screenX - gets the horizontal position of the current window.
+window.screenY - gets the vertical position of the current window.
+window.location - gets the current url of the window.
+window.history - gets the history of the window.
+
+Methods of window Syntax: window.method-name;
+
+window.open() - opens a new window with the sepecified url.
+window.close() - closes the current window.
+window.alert() - displays an laert box with the specified message.
+window.prompt() - It is used to display a dialog with and optional message prompting the user to input some text.
